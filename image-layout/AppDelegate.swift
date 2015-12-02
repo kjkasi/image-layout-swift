@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let height: Float = 300
+        let width: Float = 400
+        
+        let imageSize = [(height: height , width: width)]
+        
+        //let result = singleLayout(imageSize, maxHeight: 100.0, containerWidth: 100.0)
+        
         return true
     }
 
